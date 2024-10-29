@@ -13,7 +13,7 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import GoogleTextInput from "@/components/GoogleTextInput";
+// import GoogleTextInput from "@/components/GoogleTextInput";
 import Map from "@/components/Map";
 import RideCard from "@/components/RideCard";
 import { icons, images } from "@/constants";
@@ -115,11 +115,11 @@ const Home = () => {
               </TouchableOpacity>
             </View>
 
-            <GoogleTextInput
+            {/* <GoogleTextInput
               icon={icons.search}
               containerStyle="bg-white shadow-md shadow-neutral-300"
               handlePress={handleDestinationPress}
-            />
+            /> */}
 
             <>
               <Text className="text-xl font-JakartaBold mt-5 mb-3">
